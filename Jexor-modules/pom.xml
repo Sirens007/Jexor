@@ -16,7 +16,6 @@
 
     <modules>
         <module>Jexor-system</module>
-        <module>Jexor-system</module>
         <module>Jexor-friend</module>
         <module>Jexor-job</module>
         <module>Jexor-judge</module>

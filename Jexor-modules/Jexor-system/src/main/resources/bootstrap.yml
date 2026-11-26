@@ -3,3 +3,18 @@ server:
 spring:
   application:
     name: jexor-system
+  datasource:
+    url: jdbc:mysql://127.0.0.1:13306/jexor_dev?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=GMT%2B8
+    username: ojtest
+    password: "${DB_PASSWORD}"
+    hikari:
+      minimum-idle: 5 # 最小空闲连接数
+      maximum-pool-size: 20 # 最大连接数
+      idle-timeout: 30000 # 空闲连接存活时间 ms
+      connection-timeout: 30000 # 连接超时时间 ms
+mybatis-plus:
+  configuration:
+    # 开发时在控制台打印 SQL
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 将数据库的 user_name 映射为 Java 的 userName
+    map-underscore-to-camel-case: true
