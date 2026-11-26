@@ -26,6 +26,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>cn.syrena.Jexor</groupId>
+            <artifactId>Jexor-common-core</artifactId>
+            <version>${Jexor-common-core.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

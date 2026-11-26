@@ -21,6 +21,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Jexor-modules</module>
+        <module>Jexor-common</module>
     </modules>
 
     <properties>
@@ -32,6 +33,8 @@
         <spring-cloud-alibaba.version>2022.0.0.0-RC2</spring-cloud-alibaba.version>
         <spring-cloud.version>2022.0.0</spring-cloud.version>
         <mybatis-plus.version>3.5.18</mybatis-plus.version>
+
+        <Jexor-common-core.version>1.0-SNAPSHOT</Jexor-common-core.version>
     </properties>
 
     <dependencies>
