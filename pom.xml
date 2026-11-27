@@ -35,6 +35,7 @@
         <mybatis-plus.version>3.5.18</mybatis-plus.version>
 
         <Jexor-common-core.version>1.0-SNAPSHOT</Jexor-common-core.version>
+        <springdoc-openapi.version>2.2.0</springdoc-openapi.version>
     </properties>
 
     <dependencies>

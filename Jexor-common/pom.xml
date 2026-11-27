@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Jexor-common-core</module>
+        <module>Jexor-common-swagger</module>
     </modules>
 
     <properties>
